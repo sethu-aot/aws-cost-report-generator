@@ -258,9 +258,9 @@ class TotalCostsReport(CostReport):
 
 # Display the menu
 def display_menu():
-    print("\nMenu:")
-    print("1. AWS Account total cost")
-    print("2. Projectwise")
+    print("\nSelect a cost report type:")
+    print("1. AWS Account total cost report")
+    print("2. Projectwise cost report")
     print("3. Exit")
 
 
@@ -268,7 +268,7 @@ def display_menu():
 def main():
     while True:
         display_menu()
-        choice = input("Pick (1-3): ")
+        choice = input("Pick an option (1-3): ")
         if choice == '1':
             output_file = 'AWS_Project_Cost_Report_with_Difference_and_Totals.xlsx'
             report = TotalCostsReport(output_file)
