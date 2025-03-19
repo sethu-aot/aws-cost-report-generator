@@ -268,7 +268,7 @@ def display_menu():
 def main():
     while True:
         display_menu()
-        choice = input("Enter your choice (1-3): ")
+        choice = input("Pick (1-3): ")
         if choice == '1':
             output_file = 'AWS_Project_Cost_Report_with_Difference_and_Totals.xlsx'
             report = TotalCostsReport(output_file)
