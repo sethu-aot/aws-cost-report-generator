@@ -281,7 +281,7 @@ def main():
             print("Exiting the program.")
             break
         else:
-            print("Invalid choice. Please enter a number between 1 and 3.")
+            print("[Invalid Selection] select an option from the list.")
 
 
 # Run the program
